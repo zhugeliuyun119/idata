@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0036)https://idata.github.io/resume/ -->
+<!-- saved from url=(0036)https://zhugeliuyun119.github.io/idata/ -->
 <html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+ </head>   
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -15,25 +15,61 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>[简历]刘占兴-商业分析师</title>
-    <link rel="shortcut icon" href="https://idata.github.io/resume/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://zhugeliuyun119.github.io/idata/assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="./jd_files/typo.css">
     <link rel="stylesheet" type="text/css" href="./jd_files/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./jd_files/index.css">
-
     <script>
         function loading() {
             document.getElementsByClassName('avatar')[0].style.display = 'block';
             document.getElementsByClassName('loading')[0].style.display = 'none';
         }
     </script>
-<script charset="utf-8" src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/btype.js"></script><script type="text/javascript" charset="utf-8" src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/chrome.js"></script></head>
+</head>
 <body>
     <header class="header"></header>
     <article class="container">
         <section class="side" id="side">
-
-                <h3 class="name"><strong>意向岗位</strong></h3>
-                <h4 class="info-job"><strong>商业分析师</strong> </h4>
+            
+            <!-- 左栏固定开关，记得及时删除这段代码 Start-->
+            <label class="switch" style="display: none;" onchange="switchFixed()">
+                <script type="text/javaScript">
+                    function switchFixed(){
+                        var value = document.getElementById('side').style.position === 'fixed' ? 'absolute' : 'fixed';
+                        document.getElementById('side').style.position = value;
+                    }
+                </script>
+                <input id="cb" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <style>
+                @media (min-width: 	750px){
+                    .switch{position:relative;display:inline-block!important;width:60px;height:34px;}
+                    .switch input{display:none;}
+                    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s;}
+                    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:white;-webkit-transition:.4s;transition:.4s;}
+                    input:checked + .slider{background-color:#1abc9c;}
+                    input:focus + .slider{box-shadow:0 0 1px #1abc9c;}
+                    input:checked + .slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px);}.slider.round{border-radius:34px;}
+                    .slider.round:before{border-radius:50%;}
+                }
+            </style>
+            <!-- 左侧固定开关，记得及时删除这段代码 End-->
+            <!-- 个人肖像 -->
+            <section class="me">
+                <section class="portrait">
+                    <div class="loading">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!-- 头像照片 -->
+                    <img class="avatar" src="assets/images/avatar.jpg" onload="loading()">
+                </section>
+                <h3 class="name"><strong>刘占兴</strong></h3>
+                <h4 class="info-job"><strong>商业分析师 / 北京</strong> </h4>
 
             </section>
             <!-- 基本信息 -->
